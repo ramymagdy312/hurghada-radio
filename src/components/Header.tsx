@@ -16,7 +16,7 @@ export function Header({ toggleLanguage, isArabic }: HeaderProps) {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img
-            src="../../img/logo.png"
+            src="../img/logo.png"
             alt="Hurghada Radio"
             className="h-12 w-auto"
           />

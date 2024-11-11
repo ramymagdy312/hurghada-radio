@@ -15,7 +15,11 @@ export function Header({ toggleLanguage, isArabic }: HeaderProps) {
     <header className="container mx-auto px-4 py-8">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Hurghada Radio" className="h-12 w-auto" />
+          <img
+            src="../../img/logo.png"
+            alt="Hurghada Radio"
+            className="h-12 w-auto"
+          />
         </div>
 
         {/* Mobile Menu Button */}
